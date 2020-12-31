@@ -20,8 +20,10 @@ function Resume() {
         <div className="container" id ="maincontent" style = {{resumeStyle}}>
         <h1 className="homepagename">Resume</h1>
         <h4 classNamee= "sabinebio" style={{display : "inline-block"}} >Connect with Sabine on LinkedIn : </h4>
-        <fab href="https://www.linkedin.com/in/sabinehutter/" icon="linkedin-in" />
-        <FontAwesomeIcon href="https://www.linkedin.com/in/sabinehutter/" icon={["fab", "linkedin"]} />
+        <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+        {/* <FontAwesomeIcon href="https://www.linkedin.com/in/sabinehutter/" icon={["fab", "apple"]} /> */}
+        <FontAwesomeIcon icon="coffee" />
+
 
         <Iframe url="https://github.com/sabinehutter/sabinehutter.github.io/blob/master/Assets/SabineHutterResume.pdf"
         width="100%"
