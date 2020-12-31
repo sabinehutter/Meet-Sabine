@@ -1,6 +1,6 @@
 import React from "react";
 import Iframe from 'react-iframe'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Resume() {
     const resumeStyle = {
@@ -21,6 +21,7 @@ function Resume() {
         <h1 className="homepagename">Resume</h1>
         <h4 classNamee= "sabinebio" style={{display : "inline-block"}} >Connect with Sabine on LinkedIn : </h4>
         <fab href="https://www.linkedin.com/in/sabinehutter/" icon="linkedin-in" />
+        <FontAwesomeIcon href="https://www.linkedin.com/in/sabinehutter/" icon={["fab", "linkedin"]} />
 
         <Iframe url="https://github.com/sabinehutter/sabinehutter.github.io/blob/master/Assets/SabineHutterResume.pdf"
         width="100%"
