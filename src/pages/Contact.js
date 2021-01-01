@@ -1,10 +1,14 @@
 import React from "react";
-import Hero from "../components/Hero";
+import ContactForm from '../components/ContactForm'
+
 
 function Contact() {
+
+
   return (
-    <div>
-      <Hero backgroundImage = "(../Assests/background.jpg)" ></Hero>
+    <div >
+      {/* <Hero backgroundImage = {Background} style = {{height : "2000px"}}></Hero> */}
+      <ContactForm/>
     </div>
   );
 }
