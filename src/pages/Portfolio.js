@@ -1,7 +1,13 @@
 import React from "react";
+import BackgroundComponent from "../components/Background"
+import Background from "../Assets/background.jpg"
+
 
 function Portfolio() {
   return (
+    <div>
+    <BackgroundComponent backgroundImage = {Background} style = {{height : "2000px"}}></BackgroundComponent>
+
       <div className="container" id="maincontent">
             <div className="row" id="mainheader">
                 <h1>
@@ -41,7 +47,7 @@ function Portfolio() {
                 </div>
             </div>
         </div>
-
+</div>
   );
 }
 
