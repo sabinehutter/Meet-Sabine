@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Meet-Sabine/static/css/main.bdece651.chunk.css",
+    "main.js": "/Meet-Sabine/static/js/main.bbf5518f.chunk.js",
+    "main.js.map": "/Meet-Sabine/static/js/main.bbf5518f.chunk.js.map",
+    "runtime-main.js": "/Meet-Sabine/static/js/runtime-main.d9e88d11.js",
+    "runtime-main.js.map": "/Meet-Sabine/static/js/runtime-main.d9e88d11.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/Meet-Sabine/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.c28d7ccf.chunk.js": "/Meet-Sabine/static/js/2.c28d7ccf.chunk.js",
+    "static/js/2.c28d7ccf.chunk.js.map": "/Meet-Sabine/static/js/2.c28d7ccf.chunk.js.map",
+    "index.html": "/Meet-Sabine/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/Meet-Sabine/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.bdece651.chunk.css.map": "/Meet-Sabine/static/css/main.bdece651.chunk.css.map",
+    "static/js/2.c28d7ccf.chunk.js.LICENSE.txt": "/Meet-Sabine/static/js/2.c28d7ccf.chunk.js.LICENSE.txt",
+    "static/media/background.53566c01.jpg": "/Meet-Sabine/static/media/background.53566c01.jpg",
+    "static/media/sabine.39d59736.jpg": "/Meet-Sabine/static/media/sabine.39d59736.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9e88d11.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.c28d7ccf.chunk.js",
+    "static/css/main.bdece651.chunk.css",
+    "static/js/main.bbf5518f.chunk.js"
+  ]
+}
