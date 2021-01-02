@@ -15,9 +15,56 @@ function Portfolio() {
                 </h1>
             </div>
             <div className="row">
-                <div className="col col-sm-12 col-md-6" id="projectcard">
 
-                    <div className="card" style={{width: "18rem;"}}>
+            <div className="col col-sm-12 col-md-4" id="projectcard">
+
+<div className="card" style={{width: "18rem"}}>
+    <img className="card-img-top" src="/Assets/Images/eMeets.jpg" alt="Card cap"/>
+    <div className="card-body">
+        <h4 className="card-text1">Employee Directory</h4>
+        <p className="card-text">A study application made for students by students! This application allows students to join groups, schedule meetups, and facilitates in organizing students study schedules!</p>
+            <a href="https://sabinehutter.github.io/React-Employee-Directory/" className="btn btn-primary">Check Out Directory</a>
+            <a href="https://github.com/sabinehutter/React-Employee-Directory" className="btn btn-primary">Check Out Code</a>
+
+    
+        </div>
+</div>
+</div>
+
+<div className="col col-sm-12 col-md-4" id="projectcard">
+
+<div className="card" style={{width: "18rem"}}>
+    <img className="card-img-top" src="/Assets/Images/eMeets.jpg" alt="Card cap"/>
+    <div className="card-body">
+        <h4 className="card-text1">Budgeting Application</h4>
+        <p className="card-text">A study application made for students by students! This application allows students to join groups, schedule meetups, and facilitates in organizing students study schedules!</p>
+            <a href="https://budget-your-money.herokuapp.com/" className="btn btn-primary">Check Out Budget App</a>
+            <a href="https://github.com/sabinehutter/Budget-App" className="btn btn-primary">Check Out Code</a>
+
+    
+        </div>
+</div>
+</div>
+
+<div className="col col-sm-12 col-md-4" id="projectcard">
+
+<div className="card" style={{width: "18rem"}}>
+    <img className="card-img-top" src="/Assets/Images/eMeets.jpg" alt="Card cap"/>
+    <div className="card-body">
+        <h4 className="card-text1">Sweat Workout Tracking Application</h4>
+        <p className="card-text">A study application made for students by students! This application allows students to join groups, schedule meetups, and facilitates in organizing students study schedules!</p>
+            <a href="https://sweat-workout.herokuapp.com/" className="btn btn-primary">Check Out Sweat</a>
+            <a href="https://github.com/sabinehutter/Sweat-Workout-Tracker" className="btn btn-primary">Check Out Code</a>
+
+    
+        </div>
+</div>
+</div>
+
+
+                <div className="col col-sm-12 col-md-4" id="projectcard">
+
+                    <div className="card" style={{width: "18rem"}}>
                         <img className="card-img-top" src="/Assets/Images/eMeets.jpg" alt="Card cap"/>
                         <div className="card-body">
                             <h4 className="card-text1">eMeets</h4>
@@ -29,7 +76,7 @@ function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col col-sm-12 col-md-6" id="projectcard">
+                <div className="col col-sm-12 col-md-4" id="projectcard">
 
                     <div className="card" style={{width: "18rem"}}>
                         <img className="card-img-top" src="/Assets/Images/recipe_rolodex.jpg" alt="Card cap"/>
@@ -47,7 +94,7 @@ function Portfolio() {
                 </div>
 
 
-                <div className="col col-sm-12 col-md-6" id="projectcard">
+                <div className="col col-sm-12 col-md-4" id="projectcard">
 
 <div className="card" style={{width: "18rem"}}>
     <img className="card-img-top" src="/Assets/Images/Burger-App.jpg" alt="Card cap"/>
@@ -62,7 +109,7 @@ function Portfolio() {
 </div>
 </div>
 
-<div className="col col-sm-12 col-md-6" id="projectcard">
+<div className="col col-sm-12 col-md-4" id="projectcard">
 
 <div className="card" style={{width: "18rem"}}>
     <img className="card-img-top" src="/Assets/Images/password-generator.jpg" alt="Card cap"/>
@@ -78,7 +125,7 @@ function Portfolio() {
 </div>
 </div>
 
-<div className="col col-sm-12 col-md-6" id="projectcard">
+<div className="col col-sm-12 col-md-4" id="projectcard">
 
 <div className="card" style={{width: "18rem"}}>
     <img className="card-img-top" src="/Assets/Images/weather-dash.jpg" alt="Card cap"/>
@@ -93,7 +140,7 @@ function Portfolio() {
 </div>
 </div>
 
-<div className="col col-sm-12 col-md-6" id="projectcard">
+<div className="col col-sm-12 col-md-4" id="projectcard">
 
 <div className="card" style={{width: "18rem"}}>
     <img className="card-img-top" src="/Assets/Images/Code-Quiz.jpg" alt="Card cap"/>
@@ -107,7 +154,7 @@ function Portfolio() {
 </div>
 </div>
 
-<div className="col col-sm-12 col-md-6" id="projectcard">
+<div className="col col-sm-12 col-md-4" id="projectcard">
 
 <div className="card" style={{width: "18rem"}}>
     <img className="card-img-top" src="/Assets/Images/planner.jpg" alt="Card cap"/>

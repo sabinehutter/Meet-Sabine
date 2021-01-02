@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import {Switch, Redirect} from "react-router-dom";
 
 
 
@@ -18,6 +19,11 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
+        <Switch>
+          <Redirect from="/" to="/about" component={About} />
+                <Route path="/about" component={About}>
+                </Route>
+        </Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />

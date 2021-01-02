@@ -4,7 +4,7 @@ import "./style.css";
 
 function ContactForm() {
     return (
-<div className="container" id ="maincontent">
+<div className="container" id ="contactform">
 <form>
 
     <div className="form-group">
