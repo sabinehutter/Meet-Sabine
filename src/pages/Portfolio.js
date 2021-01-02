@@ -45,9 +45,87 @@ function Portfolio() {
                             </div>
                     </div>
                 </div>
-            </div>
+
+
+                <div className="col col-sm-12 col-md-6" id="projectcard">
+
+<div className="card" style={{width: "18rem"}}>
+    <img className="card-img-top" src="/Assets/Images/Burger-App.jpg" alt="Card cap"/>
+    <div className="card-body">
+        <h4 className="card-text1">Eat-Da-Burger Application</h4>
+        <p className="card-text">A fun an easy application that allows the users to track their burger consumption! Once you have entered a burger you can track and "eat" your burgers.</p>
+            <a href="https://burgertracker123.herokuapp.com/burgers" className="btn btn-primary">Check Out Eat-Da-Burger</a>
+            <a href="https://github.com/sabinehutter/Eat-Da-Burger-Application" className="btn btn-primary">Check Out Code</a>
+
+    
         </div>
 </div>
+</div>
+
+<div className="col col-sm-12 col-md-6" id="projectcard">
+
+<div className="card" style={{width: "18rem"}}>
+    <img className="card-img-top" src="/Assets/Images/password-generator.jpg" alt="Card cap"/>
+    <div className="card-body">
+        <h4 className="card-text1">Secure Password Generator</h4>
+        <p className="card-text">Utilize this application to automatically generate a random secure password based on the parameters that you have specificed!</p>
+    
+            <a href="https://sabinehutter.github.io/Secure-Password-Generator/" classNamee="btn btn-primary">Get a Secure Password</a>
+            <a href="https://github.com/sabinehutter/Secure-Password-Generator" className="btn btn-primary">Check Out Code</a>
+
+
+        </div>
+</div>
+</div>
+
+<div className="col col-sm-12 col-md-6" id="projectcard">
+
+<div className="card" style={{width: "18rem"}}>
+    <img className="card-img-top" src="/Assets/Images/weather-dash.jpg" alt="Card cap"/>
+    <div className="card-body">
+        <h4 className="card-text1">Weather Search Engine</h4>
+        <p className="card-text">Going on an upcoming trip or just wanna search for random cities weather?  Use this application to search the weather in any city around the world!</p>
+            <a href="https://sabinehutter.github.io/Weather-Search/" className="btn btn-primary">Search the Weather!</a>
+            <a href="https://github.com/sabinehutter/Weather-Search" className="btn btn-primary">Check Out Code</a>
+
+    
+        </div>
+</div>
+</div>
+
+<div className="col col-sm-12 col-md-6" id="projectcard">
+
+<div className="card" style={{width: "18rem"}}>
+    <img className="card-img-top" src="/Assets/Images/Code-Quiz.jpg" alt="Card cap"/>
+    <div className="card-body">
+        <h4 className="card-text1">Coding Quiz</h4>
+        <p className="card-text">Time to test your web dev knowledge! This fun and simple quiz was created to test your web development knowledge. See how high you can rank on the leader boards!</p>
+            <a href="https://sabinehutter.github.io/Web-Dev-Quiz/" className="btn btn-primary">Take the Quiz!</a>
+            <a href="https://github.com/sabinehutter/Web-Dev-Quiz" className="btn btn-primary">Check Out Code</a>
+
+        </div>
+</div>
+</div>
+
+<div className="col col-sm-12 col-md-6" id="projectcard">
+
+<div className="card" style={{width: "18rem"}}>
+    <img className="card-img-top" src="/Assets/Images/planner.jpg" alt="Card cap"/>
+    <div className="card-body">
+        <h4 className="card-text1">Personalized Day Planner</h4>
+        <p className="card-text">As days blend together during this unprecident time, use this planner to keep you on track! Keep track of activities and daily tasks to make sure you never miss anything.</p>
+            <a href="https://sabinehutter.github.io/Personalized-Day-Planner/" className="btn btn-primary">Plan Your Day!</a>
+            <a href="https://github.com/sabinehutter/Personalized-Day-Planner" className="btn btn-primary">Check Out Code</a>
+
+        </div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+            </div>
   );
 }
 

@@ -8,7 +8,6 @@ function Resume() {
   return (
     <div>
       <BackgroundComponent backgroundImage = {Background} style = {{height : "2000px"}}></BackgroundComponent>
-
       <SabineResume/>
     </div>
   );
