@@ -13,11 +13,11 @@
     font-size: 14px;
 } 
 
-/* .homepagename{
+.homepagename{
     font-family: 'Baloo Tamma 2', cursive;
         border-bottom: .5px solid lightgray;
-} */
-/* .sabinepic{
+} 
+ .sabinepic{
     max-width: 40%; 
     display:block; 
     height: auto;
@@ -25,9 +25,9 @@
     float: left;
     margin-right: 10px;
 }
-/* .fa{
-    padding:20px;
+.fa{
+    padding:5px;
     transform: scale(2,2); 
     color: black;
-} */
+}
 
