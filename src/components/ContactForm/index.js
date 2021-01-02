@@ -8,18 +8,18 @@ function ContactForm() {
 <form>
 
     <div className="form-group">
-        <label for="exampleInputPassword1">Name</label>
-        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Name"/>
+        <label>Name</label>
+        <input type="password" className="form-control" placeholder="Name"/>
     </div>
     <div className="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        <label>Email address</label>
+        <input type="email" className="form-control" aria-describedby="emailHelp"
             placeholder="Enter email"/>
         <small id="emailHelp" className="form-text text-muted">Your email will not be shared.</small>
     </div>
     <div className="form-group">
-        <label for="exampleInputPassword1">Message</label>
-        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Message"/>
+        <label >Message</label>
+        <input type="password" className="form-control" placeholder="Message"/>
     </div>
 
     <button type="submit" className="btn btn-primary">Submit</button>

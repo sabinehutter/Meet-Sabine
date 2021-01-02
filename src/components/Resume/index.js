@@ -1,17 +1,17 @@
 import React from "react";
 import "./style.css";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
-
-function SabineResume() {
+function SabineResume(props) {
     return(
-    <div className="container" id ="maincontent">
+    <div className="container" id ="resume">
     <h1 className="homepagename">Resume</h1>
     <h2 className= "sabinebio" style={{display : "inline-block"}}>Connect with Sabine on LinkedIn : </h2>
-    {/* <a href="https://www.linkedin.com/in/sabinehutter/" style="display : inline-block; padding-top: 13px;" className="fa fa-linkedin-square"></a> */}
-
-    <iframe src="../../Assets/SabineHutterResume.pdf" title="title">
-     Presss me: <a href="../../Assets/SabineHutterResume.pdf">Download PDF</a>
+    <a href="https://www.linkedin.com/in/sabinehutter/" className = "fa">
+            <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+    <iframe src={props.SabineResume} title="title">
 </iframe>
     
 </div>

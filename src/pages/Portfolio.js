@@ -6,7 +6,7 @@ import Background from "../Assets/background.jpg"
 function Portfolio() {
   return (
     <div>
-    <BackgroundComponent backgroundImage = {Background} style = {{height : "2000px"}}></BackgroundComponent>
+    <BackgroundComponent backgroundImage = {Background} style = {{height : "8000px"}}></BackgroundComponent>
 
       <div className="container" id="maincontent">
             <div className="row" id="mainheader">
@@ -85,8 +85,8 @@ function Portfolio() {
                             <p className="card-text">A one stop shop for all your recipe needs.
 
                                 This application allows you to search recipes, favorite recipes, create a shopping list, and search recipe videos on YouTube.</p>
-                                <a href="https://sabinehutter.github.io/Recipe-Rolodex/" class="btn btn-primary">Check Out Recipe Rolodex</a>
-                                <a href="https://github.com/sabinehutter/Recipe-Rolodex" class="btn btn-primary">Check Out Code</a>
+                                <a href="https://sabinehutter.github.io/Recipe-Rolodex/" className="btn btn-primary">Check Out Recipe Rolodex</a>
+                                <a href="https://github.com/sabinehutter/Recipe-Rolodex" className="btn btn-primary">Check Out Code</a>
 
                         
                             </div>
@@ -117,7 +117,7 @@ function Portfolio() {
         <h4 className="card-text1">Secure Password Generator</h4>
         <p className="card-text">Utilize this application to automatically generate a random secure password based on the parameters that you have specificed!</p>
     
-            <a href="https://sabinehutter.github.io/Secure-Password-Generator/" classNamee="btn btn-primary">Get a Secure Password</a>
+            <a href="https://sabinehutter.github.io/Secure-Password-Generator/" className="btn btn-primary">Get a Secure Password</a>
             <a href="https://github.com/sabinehutter/Secure-Password-Generator" className="btn btn-primary">Check Out Code</a>
 
 
