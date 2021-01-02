@@ -3,10 +3,14 @@
     border: .5px solid lightgrey;
     background-color: white;
     border-radius: 25px;
-    padding: 40px;
+    padding: 10px;
     margin: auto;
-    z-index: 10;
-    margin-bottom: 20px;
+    position: absolute;
+    width: 60%;
+  height: 50%;
+  left: 20%;
+  position: absolute;
+  top: 25%
 }
 
 .sabinebio1{

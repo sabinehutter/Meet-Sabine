@@ -8,7 +8,7 @@ function AboutSabine(props) {
 
     return (
 
-        <div id="contactform" >
+        <div id="aboutcontainer" >
             <h1 className="homepagename">Sabine Hutter</h1>
             <img className="sabinepic" src={props.backgroundImage} alt="Sabine" />
             <h2 className="sabinebio" style={{ textAlign: "center" }}>Welcome.</h2>
