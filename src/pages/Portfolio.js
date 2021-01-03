@@ -7,27 +7,22 @@ import ProjectContaier from "../components/ProjectCard"
 function Portfolio() {
   return (
     <div>
-    <BackgroundComponent backgroundImage = {Background} style = {{height : "2000px"}}></BackgroundComponent>
+      <BackgroundComponent backgroundImage={Background} style={{ height: "2000px" }}></BackgroundComponent>
 
       <div className="container" id="maincontent">
-            <div className="row" id="mainheader">
-                <h1>
-                    Portfolio
+        <div className="row" id="mainheader">
+          <h1>
+            Portfolio
                 </h1>
-            </div>
-          {/* console.log(ProjectData) */}
-          {ProjectData.projects.map((projects) => (
-          // console.log(projects)
+        </div>
+        {ProjectData.projects.map((projects) => (
           <ProjectContaier project={projects} />
         )
         )}
+      </div>
 
 
-            {/* <ProjectContaier projectData = {ProjectData}/> */}
-</div>
-
-
-            </div>
+    </div>
   );
 }
 

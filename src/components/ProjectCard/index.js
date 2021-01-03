@@ -12,15 +12,15 @@ function ProjectCard(props) {
 
             
             
-            <div className="col col-sm-12 col-md-4" id="projectcard ">
+            <div className="col projectcard" style = {{width: "30%"}}>
 
-                <div className="card" style={{ width: "18rem" }}>
-                    <img className="card-img-top" src="/Assets/Images/eMeets.jpg" alt="Card cap" />
+                <div className="card" style={{ width: "18rem", display: "inline-block" }}>
+                    <img className="card-img-top" src={props.project.projectImg} alt= "" />
                     <div className="card-body">
                         <h4 className="card-text1">{props.project.projectTitle}</h4>
                         <p className="card-text">{props.project.projectDesc}</p>
-                        <a href={props.project.ProjectLink} className="btn btn-primary">Check Out Directory</a>
-                        <a href={props.project.ProjectCode} className="btn btn-primary">Check Out Code</a>
+                        <a href={props.project.projectLink} className="btn btn-primary">Check Out Directory</a>
+                        <a href={props.project.projectCode} className="btn btn-primary">Check Out Code</a>
 
 
                     </div>
