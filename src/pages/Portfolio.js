@@ -11,7 +11,7 @@ function Portfolio() {
     <div>
       <BackgroundComponent backgroundImage={Background} style={{ height: "2000px" }}/>
       <Background2 backgroundImage={Background} style={{ height: "4000px" }}/>
-      {/* <Background3 backgroundImage={Background} style={{ height: "4000px" }}/> */}
+      <Background3 backgroundImage={Background} style={{ height: "4000px" }}/>
 
       <div className="container" id="maincontent">
         <div className="row" id="mainheader">
