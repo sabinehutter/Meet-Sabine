@@ -3,72 +3,72 @@
         {
             "projectTitle": "Personalized Day Planner",
             "projectDesc": "As days blend together during this unprecident time, use this planner to keep you on track! Keep track of activities and daily tasks to make sure you never miss anything.",
-            "projectCode": "'https://github.com/sabinehutter/Personalized-Day-Planner'",
-            "projectLink": "'https://sabinehutter.github.io/Personalized-Day-Planner/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/planner.jpg"
+            "projectCode": "https://github.com/sabinehutter/Personalized-Day-Planner",
+            "projectLink": "https://sabinehutter.github.io/Personalized-Day-Planner/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         },
         {
             "projectTitle": "Coding Quiz",
             "projectDesc": "Time to test your web dev knowledge! This fun and simple quiz was created to test your web development knowledge. See how high you can rank on the leader boards!",
-            "projectCode": "'https://github.com/sabinehutter/Web-Dev-Quiz'",
-            "projectLink": "'https://sabinehutter.github.io/Web-Dev-Quiz/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/Web-Dev-Quiz",
+            "projectLink": "https://sabinehutter.github.io/Web-Dev-Quiz/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         },
         {
             "projectTitle": "Weather Search Engine",
             "projectDesc": "Going on an upcoming trip or just wanna search for random cities weather? Use this application to search the weather in any city around the world!",
-            "projectCode": "'https://github.com/sabinehutter/Weather-Search'",
-            "projectLink": "'https://sabinehutter.github.io/Weather-Search/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/Weather-Search",
+            "projectLink": "https://sabinehutter.github.io/Weather-Search/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         },
         {
             "projectTitle": "Secure Password Generator",
             "projectDesc": "Utilize this application to automatically generate a random secure password based on the parameters that you have specificed!",
-            "projectCode": "'https://github.com/sabinehutter/Secure-Password-Generator'",
-            "projectLink": "'https://sabinehutter.github.io/Secure-Password-Generator/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/Secure-Password-Generator",
+            "projectLink": "https://sabinehutter.github.io/Secure-Password-Generator/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         },
         {
             "projectTitle": "Eat-Da-Burger Application",
             "projectDesc": "A fun an easy application that allows the users to track their burger consumption! Once you have entered a burger you can track and 'eat' your burgers.",
-            "projectCode": "'https://github.com/sabinehutter/Eat-Da-Burger-Application'",
-            "projectLink": "'https://burgertracker123.herokuapp.com/burgers'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/Eat-Da-Burger-Application",
+            "projectLink": "https://burgertracker123.herokuapp.com/burgersa",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         }, 
         {
             "projectTitle": "Recipe Rolodex",
             "projectDesc": "A one stop shop for all your recipe needs. This application allows you to search recipes, favorite recipes, create a shopping list, and search recipe videos on YouTube.",
-            "projectCode": "'https://github.com/sabinehutter/Recipe-Rolodex'",
-            "projectLink": "'https://sabinehutter.github.io/Recipe-Rolodex/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/Recipe-Rolodex",
+            "projectLink": "https://sabinehutter.github.io/Recipe-Rolodex/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         }, 
         {
             "projectTitle": "eMeets",
             "projectDesc": "A study application made for students by students! This application allows students to join groups, schedule meetups, and facilitates in organizing students study schedules!",
-            "projectCode": "'https://github.com/sabinehutter/eMeets'",
-            "projectLink": "'https://emeets.herokuapp.com/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/eMeets",
+            "projectLink": "https://emeets.herokuapp.com/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         }, 
         {
             "projectTitle": "Sweat Workout Tracking Application",
             "projectDesc": "Time to get in shape! This javascript based application allows you to track resistance and cardio workout. After a workout is completed it will be added to your statistics page and you can view your progress over time.",
-            "projectCode": "'https://github.com/sabinehutter/Sweat-Workout-Tracker'",
-            "projectLink": "'https://sweat-workout.herokuapp.com/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/Sweat-Workout-Tracker",
+            "projectLink": "https://sweat-workout.herokuapp.com/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         }, 
         {
             "projectTitle": "Budgeting Application",
             "projectDesc": "Budgeting has never been easier! This application gives users a simple way to track your money. The user can add in transactions and view deposits and withdraws over time. This application can run offline, so no need to have internet access!",
-            "projectCode": "'https://github.com/sabinehutter/Budget-App'",
-            "projectLink": "'https://budget-your-money.herokuapp.com/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/Budget-App",
+            "projectLink": "https://budget-your-money.herokuapp.com/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         }, 
         {
             "projectTitle": "React Employee Directory",
             "projectDesc": "This javascript based application allows employers to manage their employee directory. Users can search for exist members, and sort based on the users name.",
-            "projectCode": "'https://github.com/sabinehutter/React-Employee-Directory'",
-            "projectLink": "'https://sabinehutter.github.io/React-Employee-Directory/'",
-            "projectImg": "https://github.com/sabinehutter/Meet-Sabine/blob/main/src/Assets/Code-Quiz.jpg"
+            "projectCode": "https://github.com/sabinehutter/React-Employee-Directory",
+            "projectLink": "https://sabinehutter.github.io/React-Employee-Directory/",
+            "projectImg": "../../Assets/Code-Quiz.jpg"
         }
     ]
 }

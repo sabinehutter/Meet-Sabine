@@ -1,21 +1,12 @@
 import React from "react";
 import "./style.css";
 
-
-function ProjectCard(props) {
-
-
-        // props.projectData.projects.forEach(element => {
-        //     console.log(element);
-            // Return the element. Also pass key     
+function ProjectCard(props) {   
             return (
-
-            
             
             <div className="col projectcard" style = {{width: "30%"}}>
-
-                <div className="card" style={{ width: "18rem", display: "inline-block" }}>
-                    <img className="card-img-top" src={props.project.projectImg} alt= "" />
+                <div className="card" style={{ width: "17rem", display: "inline" }}>
+                    <div className="card-img-top" style={{ backgroundImage: `url(${props.project.projectImg})` }}></div>
                     <div className="card-body">
                         <h4 className="card-text1">{props.project.projectTitle}</h4>
                         <p className="card-text">{props.project.projectDesc}</p>
