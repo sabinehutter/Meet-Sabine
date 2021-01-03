@@ -2,6 +2,9 @@ import React from "react";
 import "./style.css";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Document, Page } from 'react-pdf';
+import Resume from "../../Assets/SabineHutterResume.pdf"
+
 
 function SabineResume(props) {
     return(
@@ -11,8 +14,12 @@ function SabineResume(props) {
     <a href="https://www.linkedin.com/in/sabinehutter/" className = "fa">
             <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
-    <iframe src={props.SabineResume} title="title">
-</iframe>
+    {/* <iframe src={props.SabineResume} title="title">
+</iframe> */}
+
+    <Document file={Resume}>
+      <Page pageNumber={1} />
+    </Document>
     
 </div>
     )
