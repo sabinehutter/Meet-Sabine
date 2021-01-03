@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
-import {Switch, Redirect} from "react-router-dom";
+import {Redirect, Switch} from "react-router-dom";
 
 
 
