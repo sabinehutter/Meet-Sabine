@@ -44,19 +44,19 @@
         }, 
         {
             "project-name": "Sweat Workout Tracking Application",
-            "project-desc": "WRITE",
+            "project-desc": "Time to get in shape! This javascript based application allows you to track resistance and cardio workout. After a workout is completed it will be added to your statistics page and you can view your progress over time.",
             "project-code": "https://github.com/sabinehutter/Sweat-Workout-Tracker",
             "project-link": "https://sweat-workout.herokuapp.com/"
         }, 
         {
             "project-name": "Budgeting Application",
-            "project-desc": "WRITE",
+            "project-desc": "Budgeting has never been easier! This application gives users a simple way to track your money. The user can add in transactions and view deposits and withdraws over time. This application can run offline, so no need to have internet access!",
             "project-code": "https://github.com/sabinehutter/Budget-App",
             "project-link": "https://budget-your-money.herokuapp.com/"
         }, 
         {
             "project-name": "React Employee Directory",
-            "project-desc": "WRITE",
+            "project-desc": "This javascript based application allows employers to manage their employee directory. Users can search for exist members, and sort based on the users name.",
             "project-code": "https://github.com/sabinehutter/React-Employee-Directory",
             "project-link": "https://sabinehutter.github.io/React-Employee-Directory/"
         }
