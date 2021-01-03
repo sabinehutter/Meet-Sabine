@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Document, Page } from 'react-pdf';
+import Viewer, { Worker } from '@phuocng/react-pdf-viewer';
+import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
 import Resume from "../../Assets/SabineHutterResume.pdf"
-
 
 function SabineResume(props) {
     return(
@@ -14,12 +14,12 @@ function SabineResume(props) {
     <a href="https://www.linkedin.com/in/sabinehutter/" className = "fa">
             <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
-    {/* <iframe src={props.SabineResume} title="title">
-</iframe> */}
 
-    <Document file={Resume}>
-      <Page pageNumber={1} />
-    </Document>
+<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.min.js">
+    <div id="pdfviewer" style = {{height : "90%"}}>
+        <Viewer fileUrl={Resume} /> 
+    </div>
+    </Worker>
     
 </div>
     )
